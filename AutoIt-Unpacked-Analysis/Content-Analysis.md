@@ -118,7 +118,13 @@ The script then performs a sequence consistent with in-memory execution.
 <img width="624" height="256" alt="image" src="https://github.com/user-attachments/assets/6c47758c-1130-414c-a817-1617473ab2d0" />
 
 
-I observed a call pattern consistent with `VirtualAlloc`.
+I observed a call pattern consistent with `HeapAlloc`.
+
+If we use Cyber chef using the reverse rotation (left) and the xor key identified (93) we can see the dll calls. The decoded strings revealed Windows API calls such as GetProcessHeap. Minor inconsistencies in the decoded output (e.g., missing characters) are attributed to encoding artifacts during manual decoding, but the intended API names are clearly identifiable.
+
+<img width="994" height="494" alt="image" src="https://github.com/user-attachments/assets/d6c22d24-afeb-4105-8403-686768fc0540" />
+
+
 
 ---
 
