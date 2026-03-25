@@ -38,5 +38,6 @@ The Imports section provides a granular view of the malware's malicious behavior
 #### Information Gathering & Privileges
 * **GetAce (ADVAPI32.dll):** Allows the malware to inspect system access control lists, likely to find security weaknesses or escalate privileges.
 * **LoadUserProfileW (USERENV.dll):** Used to access user-specific data, such as browser cookies or saved credentials.
+<img width="1149" height="531" alt="image" src="https://github.com/user-attachments/assets/b31ad535-95ce-4938-8507-172c43b2ee0d" />
 
 > **Conclusion:** The presence of **VirtualAlloc** combined with **FtpOpenFileW** and **GetAce** characterizes this sample as an active loader/stealer. It is designed to unpack itself into memory (VirtualAlloc), survey the environment (GetProcessMemoryInfo), and communicate over the network (connect, FtpOpenFileW).
