@@ -80,6 +80,3 @@ Since the binary is a compiled AutoIt script, I used AutoIt-Ripper to extract th
 
 <img width="802" height="174" alt="Screenshot 2026-03-02 233828" src="https://github.com/user-attachments/assets/2fcb6566-ac64-4d11-bbda-464eea2e4c45" />
 
-#### Checking the AutoIt file extracted
-
-<img width="1143" height="729" alt="Screenshot 2026-03-02 233948" src="https://github.com/user-attachments/assets/ca55c5da-7186-48ca-8d80-c08a82625d91" />
