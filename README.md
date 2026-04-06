@@ -56,4 +56,5 @@ This project demonstrates practical skills in:
 - Reverse engineering of obfuscated scripts
 - In-memory execution analysis
 - Threat intelligence mapping (MITRE ATT&CK)
+  
 *Disclaimer: This analysis is for educational and research purposes only. All activities were conducted in a secure, isolated malware laboratory.*
