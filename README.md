@@ -50,4 +50,10 @@ For a complete list of IOCs extracted during the analysis, see:
 
 ➡️ [IOCs Documentation](./IOCS/iocs.md)
 ---
+
+This project demonstrates practical skills in:
+- Manual unpacking of packed malware
+- Reverse engineering of obfuscated scripts
+- In-memory execution analysis
+- Threat intelligence mapping (MITRE ATT&CK)
 *Disclaimer: This analysis is for educational and research purposes only. All activities were conducted in a secure, isolated malware laboratory.*
