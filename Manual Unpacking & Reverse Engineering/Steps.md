@@ -1,5 +1,6 @@
 ###  Analysis & Manual Unpacking
-#### X32DBG
+##### **Phase 1: Identifying the Entry Point & UPX Stub**
+###### X32DBG
 
 The dynamic analysis initiated by identifying the initial entry point at `0x00CBD670`. The presence of the pushad instruction confirmed the beginning of the UPX decompression stub, serving as the starting point for the manual OEP (Original Entry Point) discovery.
 
