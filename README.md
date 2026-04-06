@@ -39,7 +39,10 @@ The sample featured a **corrupted PE header** technique to thwart automated unpa
 Post-dump analysis with **PE-bear** confirmed the payload was a compiled AutoIt script hidden within the `RC Data` resources.
 * **Extraction:** Leveraged **AutoIt-Ripper** to strip the wrapper and decompile the bytecode.
 * **Recovered Assets:** Successfully extracted `script.au3` (core malicious logic) and secondary resources named `Zama` and `myriopodous`.
+## 4. 🎯 MITRE ATT&CK Mapping
 
+See full mapping here:
+➡️ [MITRE Mapping](./MITRE.md)
 ## 🛡️ Strategic Conclusion & IOCs
 This analysis confirms the sample is a highly-evasive **RedLine Stealer** variant. By wrapping the malware in a compiled AutoIt script and corrupting the UPX headers, the threat actor successfully bypassed signature-based detection. The final payload is designed to harvest sensitive user credentials, browser data, and crypto-wallets before exfiltrating them via FTP.
 
