@@ -43,5 +43,8 @@ Post-dump analysis with **PE-bear** confirmed the payload was a compiled AutoIt 
 ## 🛡️ Strategic Conclusion & IOCs
 This analysis confirms the sample is a highly-evasive **RedLine Stealer** variant. By wrapping the malware in a compiled AutoIt script and corrupting the UPX headers, the threat actor successfully bypassed signature-based detection. The final payload is designed to harvest sensitive user credentials, browser data, and crypto-wallets before exfiltrating them via FTP.
 
+For a complete list of IOCs extracted during the analysis, see:
+
+➡️ [IOCs Documentation](./IOCS/iocs.md)
 ---
 *Disclaimer: This analysis is for educational and research purposes only. All activities were conducted in a secure, isolated malware laboratory.*
