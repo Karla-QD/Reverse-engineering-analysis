@@ -39,7 +39,7 @@ The sample featured a **corrupted PE header** technique to thwart automated unpa
 Post-dump analysis with **PE-bear** confirmed the payload was a compiled AutoIt script hidden within the `RC Data` resources.
 * **Extraction:** Leveraged **AutoIt-Ripper** to strip the wrapper and decompile the bytecode.
 * **Recovered Assets:** Successfully extracted `script.au3` (core malicious logic) and secondary resources named `Zama` and `myriopodous`.
-## 4. 🎯 MITRE ATT&CK Mapping
+### 4. 🎯 MITRE ATT&CK Mapping
 
 See full mapping here:
 ➡️ [MITRE Mapping](./MITRE.md)
