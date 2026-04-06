@@ -76,7 +76,7 @@ The sample shows extensive interaction with the Windows Registry, a hallmark of 
 
 #### AutoIt Ripper
 Since the binary is a compiled AutoIt script, I used AutoIt-Ripper to extract the internal resources. This resulted in the discovery of script.au3 and supporting files like `myriopodous` and `zama`.
-
-
-<img width="802" height="174" alt="Screenshot 2026-03-02 233828" src="https://github.com/user-attachments/assets/2fcb6566-ac64-4d11-bbda-464eea2e4c45" />
-
+The AutoIt payload was extracted using AutoIt-Ripper:
+```
+python -m autoit_ripper.cli Malware_unpacked.exe .
+```
