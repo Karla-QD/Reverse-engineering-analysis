@@ -12,7 +12,7 @@ From the initial inspection, I identified that the script acts as a **multi-stag
 
 Based on my analysis, the script follows this sequence:
 
-1. Drops embedded resources (`Zama`, `myriopodous`)
+1. Drops embedded resources (`Zama(SHA-256: 0dcec519d5eadfdd8b70f15f53506c33497a38d9b3ca7de1b7a48e9bd41b2d4f)`, `myriopodous(SHA-256:d90af9f7d7e56bc5829597f070a18d2ddfdf0721c22b0eae9a32ea1c020e1a86)`)
 2. Reads and decodes the main payload (`Zama`)
 3. Dynamically resolves API calls
 4. Allocates memory and injects the decoded payload
