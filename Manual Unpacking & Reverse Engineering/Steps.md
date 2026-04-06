@@ -39,7 +39,7 @@ With the **EIP** (Instruction Pointer) positioned at the final `JMP` instruction
     * **Action:** Dumped the process memory to disk as **`Malware_unpacked.exe`**.
 
 - OEP: 0x00BB04F7
-<img width="623" height="614" alt="image" src="https://github.com/user-attachments/assets/e981455f-c968-4bfe-b3e5-4142cb7133bf" />
+<img width="614" height="495" alt="image" src="https://github.com/user-attachments/assets/85b31989-4ea8-4df1-88cb-445031292247" />
 
 ### Post-Unpacking Verification  
 
